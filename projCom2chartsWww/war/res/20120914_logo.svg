@@ -1,0 +1,22 @@
+<svg width="360" height="80" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <linearGradient y2="0.76" x2="1" y1="0.24" x1="0" id="svg_10">
+   <stop stop-color="#c4f1ff" offset="0"/>
+   <stop stop-color="#45a5b4" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g display="inline">
+  <title>Layer 1</title>
+  <rect fill="#44505f" stroke="#000000" stroke-width="0" x="0" y="8" width="64" height="64" id="svg_1"/>
+ </g>
+ <g>
+  <title>Layer 2</title>
+  <rect fill="url(#svg_10)" stroke="#000000" stroke-width="0" x="9" y="34" width="19" height="37" id="svg_2"/>
+  <rect fill="url(#svg_10)" stroke="#000000" stroke-width="0" x="36" y="21" width="19" height="50" id="svg_3"/>
+  <text fill="#44505f" stroke="#000000" stroke-width="0" x="164" y="71.5" id="svg_4" font-size="69" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" font-weight="bold">2char</text>
+  <text fill="#44505f" stroke="#000000" stroke-width="0" x="289" y="71.5" id="svg_4" font-size="69" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" font-weight="bold">ts</text>
+  <text fill="#44505f" stroke="#000000" stroke-width="0" x="336" y="40.5" id="svg_4" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" font-weight="bold" transform="rotate(-90 336.00000000000006,31.999999999999975) ">com</text>
+  <ellipse ry="4" rx="4" id="svg_7" cy="67" cx="339" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#44505f"/>
+ </g>
+</svg>

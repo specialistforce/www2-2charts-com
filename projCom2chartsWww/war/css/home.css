@@ -1,0 +1,174 @@
+@namespace svg "http://www.w3.org/2000/svg";
+
+/* Eurostyle Medium Standard Web; first for IE 4–8 */
+@font-face {
+	font-family: e004007t;
+	src: url("fonts/e004007tWeb.eot");
+}
+
+/* Eurostyle Medium Standard Web; for WOFF-capable browsers */
+@font-face {
+	font-family: e004007t;
+	src: url("fonts/e004007tWeb.woff") format("woff");
+}
+
+body {
+	font-family: e004007t, sans-serif;
+	background: #bbbbbb;
+	background: -moz-linear-gradient(top, #bbbbbb 0%, #555555 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#bbbbbb), color-stop(100%,#555555));
+	background: -webkit-linear-gradient(top, #bbbbbb 0%, #555555 100%);
+	background: -o-linear-gradient(top, #bbbbbb 0%, #555555 100%);
+	background: -ms-linear-gradient(top, #bbbbbb 0%, #555555 100%);
+	background: linear-gradient(top, #bbbbbb 0%, #555555 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bbbbbb', endColorstr='#555555',GradientType=0 );
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bbbbbb', endColorstr='#555555',GradientType=0 );
+	/*min-height:15em;*/
+	background-size:100% 100%, auto; /* auto is tile */
+	height:100%;
+}
+img {
+	vertical-align:middle;
+}
+.ui-page {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: grey;
+	/*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;*/
+	font-size:14px;
+	color:#C4F1FF;
+}
+.ui-page a {
+	color: #C4F1FF;
+}
+.ui-page a:hover {
+	text-shadow: 0 0 3px #C4F1FF;
+}
+
+.ui-header {
+	/*background: #C4F1FF;*/
+	/*background: -moz-linear-gradient(top, #C4F1FF 50%, #45A5B4 100%);*/
+	background: #C4F1FF;
+	background: -moz-linear-gradient(top, #C4F1FF 50%, #45A5B4 100%);
+	background: -moz-linear-gradient(top, #C4F1FF 50%, #45A5B4 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(50%,#C4F1FF), color-stop(100%,#45A5B4));
+	background: -webkit-linear-gradient(top, #C4F1FF 50%, #45A5B4 100%);
+	background: -o-linear-gradient(top, #C4F1FF 50%, #45A5B4 100%);
+	background: -ms-linear-gradient(top, #C4F1FF 50%, #45A5B4 100%);
+	background: linear-gradient(top, #C4F1FF 50%, #45A5B4 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#C4F1FF', endColorstr='#45A5B4',GradientType=0 );
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#C4F1FF', endColorstr='#45A5B4',GradientType=0 );
+	/*background-color: rgba(64,64,64,0.5);*/
+	width: 100%;
+	float: left;
+	clear:both;
+	display:table-row;
+}
+.ui-footer {
+	width: 100%;
+	float: left;
+	/*background-color: rgba(64,64,64,0.5);*/
+	clear:both;
+	display:table-row;
+}
+.ui-header > .ui-leftdiv {
+	width:1%;
+	/*background-color: rgba(64,64,192,0.0);*/
+	background-color: rgba(128,128,160,0.4);
+	display:table-cell;
+}
+.ui-header > .ui-centerdiv {
+	width:99%;
+	/*background-color: rgba(64,64,160,0.1);*/
+	background-color: rgba(128,128,160,0.4);
+	text-align:right;
+	display:table-cell;
+}
+.ui-content {
+	font-family: e004007t, sans-serif;
+	width:100%;
+	background-color:rgba(64,64,64,0.4);
+	float:left;
+	font-size:1em;
+}
+.ui-content div {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.ui-content > .ui-leftdiv {
+	width: 0%;
+	background-color: rgba(64,192,64,0.5);;
+	float: left;
+}
+.ui-content > .ui-centerdiv {
+	width: 100%;
+	min-height:15em;
+	background-color: rgba(48,48,160,0.4);
+	float: left;
+}
+.ui-search-appliance form * {
+	display:table-cell;
+	white-space:nowrap;
+	float:right;
+}
+.ui-search-appliance div.ui-search-appliance-input {
+	/*width:99%;*/
+	width:17em;
+}
+.ui-search-appliance .ui-search-appliance-input input {
+	width:98%;
+	background-color:rgba(255,255,255,0.8);
+	padding-left:0.3em;
+	margin-top:0.15em;
+}
+.ui-search-appliance .ui-search-appliance-buttonset {
+	/*width:1%;*/
+}
+.ui-search-appliance .ui-search-appliance-submit {
+	font-size:smaller;
+	margin-left:0.8em;
+}
+
+ul.ui-paragraphs li {
+	margin-bottom:0.8em;
+}
+ul.ui-paragraphs li span:first-child::before {
+   content: "Q: ";
+}
+/*ul.ui-paragraphs li span:nth-child(2)::before {
+   content: "A: ";
+}*/
+.ui-footer {
+	padding:1em;
+	font-size:0.8em;
+}
+.ui-footer span {
+	padding-left:0.8em;
+	padding-right:0.8em;
+}
+.ui-footer a {
+	text-decoration:none;
+}
+
+.ui-gallery {
+	width:640px;
+	height:380px;
+	background:transparent;
+}
+
+.clearfix:after {
+	visibility:hidden;
+	display:block;
+	content:"";
+	clear:both;
+	height:0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+/* ---------------------------------------------------------------- SVG specific styles: */
+svg|text {
+	font-family: e004007t, sans-serif;
+}

@@ -1,0 +1,19 @@
+.galleria-container{
+	background:rgba(240,240,240,0.01);
+}
+.galleria-image img{
+	box-shadow: 3px 3px 5px rgba(15, 67, 99, 0.5);
+}
+.ui-gallery {
+	width:640px;
+	height:380px;
+	background:transparent;
+}
+.galleria-stage{
+	min-width:640px;
+	min-height:380px;
+	background:rgba(240,240,240, 0.01);
+}
+.galleria-bar{
+	background:rgba(240,240,240,0.4);
+}

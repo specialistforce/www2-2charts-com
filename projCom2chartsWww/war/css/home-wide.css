@@ -1,0 +1,11 @@
+body > .ui-page {
+	width: 90%;
+}
+.ui-header .ui-search-appliance .ui-search-appliance-input {
+	width: 26em;
+}
+
+#galleria.ui-gallery {
+	width:720px;
+	height:432px;
+}
