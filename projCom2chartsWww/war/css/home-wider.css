@@ -1,13 +1,17 @@
 body > .ui-page {
-	width: 80%;
+	width:80%;
 }
 
 .ui-header .ui-search-appliance .ui-search-appliance-input {
-	width: 32em;
+	width:29em;
+}
+
+.ui-search-appliance .ui-search-appliance-buttonset {
+	margin-right:1em;
 }
 
 #galleria.ui-gallery {
-	width:800px;
-	height:480px;
+	width:732px;
+	height:432px;
 }
 

@@ -4,7 +4,7 @@
 @font-face {
 	font-family: e004007t;
 	src: url("fonts/e004007tWeb.eot");
-}
+}ooter
 
 /* Eurostyle Medium Standard Web; for WOFF-capable browsers */
 @font-face {
@@ -13,7 +13,7 @@
 }
 
 body {
-	font-family: e004007t, sans-serif;
+	/*font-family: e004007t, sans-serif;*/
 	background: #bbbbbb;
 	background: -moz-linear-gradient(top, #bbbbbb 0%, #555555 100%);
 	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#bbbbbb), color-stop(100%,#555555));
@@ -34,32 +34,48 @@ img {
 	width:100%;
 	margin-left:auto;
 	margin-right:auto;
-	background-color: grey;
-	/*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;*/
-	font-size:14px;
+	background-color:#000000;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+	font-size:12px;
+	font-weight:bold;
 	color:#C4F1FF;
 }
 .ui-page a {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+	font-size:13px;
+	font-weight:bold;
 	color: #C4F1FF;
 }
 .ui-page a:hover {
 	text-shadow: 0 0 3px #C4F1FF;
 }
+.ui-page h4 {
+	color:#44505F;
+	margin-left:0.4em;
+	/*font-family:e004007t,sans-serif;*/
+	/*font-weight:normal;*/
+	/*font-size:20px;*/
+}
+
+body > .ui-page {
+}
+
+body > .ui-page > .ui-header {
+}
 
 .ui-header {
-	/*background: #C4F1FF;*/
+	/*background: #607098;*/
+	/*background: #88C0E0;*/
 	/*background: -moz-linear-gradient(top, #C4F1FF 50%, #45A5B4 100%);*/
-	background: #C4F1FF;
-	background: -moz-linear-gradient(top, #C4F1FF 50%, #45A5B4 100%);
-	background: -moz-linear-gradient(top, #C4F1FF 50%, #45A5B4 100%);
-	background: -webkit-gradient(linear, left top, right bottom, color-stop(50%,#C4F1FF), color-stop(100%,#45A5B4));
-	background: -webkit-linear-gradient(top, #C4F1FF 50%, #45A5B4 100%);
-	background: -o-linear-gradient(top, #C4F1FF 50%, #45A5B4 100%);
-	background: -ms-linear-gradient(top, #C4F1FF 50%, #45A5B4 100%);
-	background: linear-gradient(top, #C4F1FF 50%, #45A5B4 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#C4F1FF', endColorstr='#45A5B4',GradientType=0 );
-	-ms-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#C4F1FF', endColorstr='#45A5B4',GradientType=0 );
-	/*background-color: rgba(64,64,64,0.5);*/
+	background: #88C0E0;
+	background: -moz-linear-gradient(top, #88A0B8 0%, #88C0D8 45%, #88C0D8 55%, #88A0B8 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#88A0B8), color-stop(45%,#88C0D8), color-stop(55%,#88C0D8), color-stop(100%,#88A0B8));
+	background: -webkit-linear-gradient(top, #88A0B8 0%, #88C0D8 45%, #88C0D8 55%, #88A0B8 100%);
+	background: -o-linear-gradient(top, #88A0B8 0%, #88C0D8 45%, #88C0D8 55%, #88A0B8 100%);
+	background: -ms-linear-gradient(top, #88A0B8 0%, #88C0D8 45%, #88C0D8 55%, #88A0B8 100%);
+	background: linear-gradient(top, #88A0B8 0%, #88C0D8 45%, #88C0D8 55%, #88A0B8 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#88C0D8', endColorstr='#88A0B8',GradientType=0 );
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#88C0D8', endColorstr='#88A0B8',GradientType=0 );
 	width: 100%;
 	float: left;
 	clear:both;
@@ -72,23 +88,33 @@ img {
 	clear:both;
 	display:table-row;
 }
+.ui-footer a{
+	font-size:0.9em;
+}
 .ui-header > .ui-leftdiv {
 	width:1%;
-	/*background-color: rgba(64,64,192,0.0);*/
-	background-color: rgba(128,128,160,0.4);
+	/*background-color: rgba(128,128,160,0.4);*/
+	background-color:transparent;
 	display:table-cell;
+}
+.ui-header > .ui-leftdiv div.svg{
+	margin-top:1em;
+	margin-left:0.9em;
+}
+.ui-header > .ui-leftdiv div.img{
+	margin-left:1em;
+	display:none;
 }
 .ui-header > .ui-centerdiv {
 	width:99%;
-	/*background-color: rgba(64,64,160,0.1);*/
-	background-color: rgba(128,128,160,0.4);
+	/*background-color: rgba(128,128,160,0.4);*/
+	background-color:transparent;
 	text-align:right;
 	display:table-cell;
 }
 .ui-content {
-	font-family: e004007t, sans-serif;
 	width:100%;
-	background-color:rgba(64,64,64,0.4);
+	background-color:transparent;
 	float:left;
 	font-size:1em;
 }
@@ -104,9 +130,28 @@ img {
 }
 .ui-content > .ui-centerdiv {
 	width: 100%;
-	min-height:15em;
-	background-color: rgba(48,48,160,0.4);
+	min-height:16em;
+	/*background-color: rgba(48,48,160,0.4);*/
+	background: #335570;
+	background: -moz-linear-gradient(top, #305570 0%, #000000 100%);
+	background: -webkit-gradient(linear, top, bottom, color-stop(0%,#305570), color-stop(100%,#000000));
+	background: -webkit-linear-gradient(top, #305570 0%, #000000 100%);
+	background: -o-linear-gradient(top, #305570 0%, #000000 100%);
+	background: -ms-linear-gradient(top, #305570 0%, #000000 100%);
+	background: linear-gradient(top, #305570 0%, #000000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#305570', endColorstr='#000000',GradientType=0 );
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#305570', endColorstr='#000000',GradientType=0 );
 	float: left;
+}
+.ui-content > .ui-centerdiv > .ui-page:first-child{
+	display:block;
+}
+.ui-content > .ui-centerdiv > .ui-page{
+	display:none;
+}
+
+.ui-search-appliance {
+	margin-bottom:2.4em;
 }
 .ui-search-appliance form * {
 	display:table-cell;
@@ -115,19 +160,23 @@ img {
 }
 .ui-search-appliance div.ui-search-appliance-input {
 	/*width:99%;*/
-	width:17em;
+	width:14em;
 }
 .ui-search-appliance .ui-search-appliance-input input {
 	width:98%;
-	background-color:rgba(255,255,255,0.8);
+	background-color:rgba(255,255,255,0.9);
 	padding-left:0.3em;
-	margin-top:0.15em;
+	margin-top:0.25em;
 }
 .ui-search-appliance .ui-search-appliance-buttonset {
+	margin-right:0.2em;
 	/*width:1%;*/
 }
 .ui-search-appliance .ui-search-appliance-submit {
-	font-size:smaller;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+	font-weight:bold;
+	color:#44505F;
+	font-size:0.9em;
 	margin-left:0.8em;
 }
 
@@ -153,8 +202,9 @@ ul.ui-paragraphs li span:first-child::before {
 }
 
 .ui-gallery {
-	width:640px;
-	height:380px;
+	width:576px;
+	height:342px;
+	margin-top:0.5em;
 	background:transparent;
 }
 

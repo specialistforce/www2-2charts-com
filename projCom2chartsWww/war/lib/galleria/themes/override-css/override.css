@@ -5,13 +5,13 @@
 	box-shadow: 3px 3px 5px rgba(15, 67, 99, 0.5);
 }
 .ui-gallery {
-	width:640px;
-	height:380px;
+	width:576px;
+	height:342px;
 	background:transparent;
 }
 .galleria-stage{
-	min-width:640px;
-	min-height:380px;
+	min-width:576px;
+	min-height:342px;
 	background:rgba(240,240,240, 0.01);
 }
 .galleria-bar{

@@ -1,0 +1,21 @@
+.ui-page .ui-widget-header {
+	border: 1px solid #AED0EA;
+	background: #DEEDF7 url(images/cupertino/ui-bg_highlight-soft_100_deedf7_1x100.png);
+}
+.ui-page .ui-widget-content {
+	color: #C4F1FF;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background: #D7EBF9 url(images/cupertino/ui-bg_glass_80_d7ebf9_1x400.png) 50% 50% repeat-x;
+	font-weight: bold;
+	color: #2779AA;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	border: 1px solid #2694E8;
+	background: #88A0B8 url(images/ui-bg_glass_50_3baae3_1x400.png) 50% 50% repeat-x;
+	font-weight: bold;
+	color: white;
+}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+	color: white;
+}
